@@ -1,7 +1,7 @@
 import fifth from '../images/Path 236.svg';
 import sixth from '../images/Path 235.svg';
 import seventh from '../images/Path 224.svg';
-
+import React from 'react';
 import { servicesList } from '../data';
 
 export const Services = () => {

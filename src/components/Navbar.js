@@ -1,10 +1,8 @@
-import { useEffect, useRef, useState } from 'react';
+import React from 'react';
 import { navLinks } from '../data';
 import brand from '../images/Group 1782.svg';
 
 export const Navbar = () => {
-  const [showMenu, setShowMenu] = useState(false);
-
   return (
     <nav className="block sm:flex px-10 items-center uppercase text-xs">
       <header className="p-4 w-28">
