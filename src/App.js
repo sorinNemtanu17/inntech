@@ -4,6 +4,7 @@ import { Services } from './components/Services';
 import { HowTo } from './components/HowTo';
 import { Users } from './components/Users';
 import { Footer } from './components/Footer';
+import React from 'react';
 
 function App() {
   return (
