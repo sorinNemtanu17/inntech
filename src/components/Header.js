@@ -1,3 +1,5 @@
+import React from 'react';
+
 import first from '../images/Path 237.svg';
 import second from '../images/287927452(7).svg';
 import third from '../images/287927452(10).svg';

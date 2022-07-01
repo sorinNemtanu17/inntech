@@ -1,3 +1,5 @@
+import React from 'react';
+
 import eight from '../images/Path 234.svg';
 import nineth from '../images/Path 233.svg';
 

@@ -2,7 +2,7 @@
   "name": "interviuinntech",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/sorinNemtanu17",
+  "homepage": "https://sorinNemtanu17.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",

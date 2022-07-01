@@ -1,3 +1,5 @@
+import React from 'react';
+
 export const FooterMenu = () => {
   return (
     <div className="flex justify-between md:pt-16 px-10 md:p-0 whitespace-nowrap">

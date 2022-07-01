@@ -1,3 +1,5 @@
+import React from 'react';
+
 import brand from '../images/Group 1782 copy.svg';
 import facebook from '../images/Facebook.svg';
 import instegram from '../images/Instagram.svg';
