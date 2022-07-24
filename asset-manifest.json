@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/inntech/static/css/main.cdd39615.css",
-    "main.js": "/inntech/static/js/main.7d9d4aad.js",
+    "main.css": "/inntech/static/css/main.4dae7379.css",
+    "main.js": "/inntech/static/js/main.a33d88b9.js",
     "static/js/787.072eca58.chunk.js": "/inntech/static/js/787.072eca58.chunk.js",
     "static/media/Path 225.png": "/inntech/static/media/Path 225.d108a7632ab03a484dee.png",
     "static/media/Group 1782 copy.svg": "/inntech/static/media/Group 1782 copy.8c03c1ce31a4399cae55302131235355.svg",
@@ -23,12 +23,12 @@
     "static/media/Path 236.svg": "/inntech/static/media/Path 236.2e8f246fdd24101c03745369bf8120d3.svg",
     "static/media/BG.svg": "/inntech/static/media/BG.a87749ffb2ce52d1c811.svg",
     "static/media/BG(1).svg": "/inntech/static/media/BG(1).6782b7e71da72d37af1c.svg",
-    "main.cdd39615.css.map": "/inntech/static/css/main.cdd39615.css.map",
-    "main.7d9d4aad.js.map": "/inntech/static/js/main.7d9d4aad.js.map",
+    "main.4dae7379.css.map": "/inntech/static/css/main.4dae7379.css.map",
+    "main.a33d88b9.js.map": "/inntech/static/js/main.a33d88b9.js.map",
     "787.072eca58.chunk.js.map": "/inntech/static/js/787.072eca58.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cdd39615.css",
-    "static/js/main.7d9d4aad.js"
+    "static/css/main.4dae7379.css",
+    "static/js/main.a33d88b9.js"
   ]
 }
