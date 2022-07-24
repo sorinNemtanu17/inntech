@@ -11,16 +11,12 @@ export const Navbar = () => {
   };
 
   return (
-    <nav className="flex px-10 items-center uppercase text-xs relative">
+    <nav className="navbar">
       <header className="p-4 w-1/3">
         <img src={brand} alt="" />
       </header>
 
-      <ul
-        className={`absolute z-10 -bottom-full top-full right-10 transition duration-300 origin-top shadow-lg h-52 ${
-          hidden ? 'scale-y-0' : 'scale-y-1'
-        }`}
-      >
+      <ul className={`menu ${hidden ? 'scale-y-0' : 'scale-y-1'}`}>
         {navLinks.map((link) => {
           const { id, text } = link;
           return (

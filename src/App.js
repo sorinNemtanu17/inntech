@@ -5,6 +5,7 @@ import { HowTo } from './components/HowTo';
 import { Users } from './components/Users';
 import { Footer } from './components/Footer';
 import React from 'react';
+import './App.css';
 
 function App() {
   return (
