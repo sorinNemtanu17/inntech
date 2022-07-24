@@ -11,12 +11,12 @@ export const FooterMenu = () => {
           </a>
         </li>
         <li>
-          <a href="" className="font-thin text-xs">
+          <a href="#" className="font-thin text-xs">
             Creeaza cont
           </a>
         </li>
         <li>
-          <a href="" className="font-thin text-xs">
+          <a href="#" className="font-thin text-xs">
             Acceseaza cont
           </a>
         </li>
@@ -29,27 +29,27 @@ export const FooterMenu = () => {
           </a>
         </li>
         <li>
-          <a href="" className="font-thin text-xs">
+          <a href="#" className="font-thin text-xs">
             Despre noi
           </a>
         </li>
         <li>
-          <a href="" className="font-thin text-xs">
+          <a href="#" className="font-thin text-xs">
             Cum Functioneaza
           </a>
         </li>
         <li>
-          <a href="" className="font-thin text-xs">
+          <a href="#" className="font-thin text-xs">
             Sfaturi
           </a>
         </li>
         <li>
-          <a href="" className="font-thin text-xs">
+          <a href="#" className="font-thin text-xs">
             F.A.Q
           </a>
         </li>
         <li>
-          <a href="" className="font-thin text-xs">
+          <a href="#" className="font-thin text-xs">
             Contact
           </a>
         </li>
@@ -62,27 +62,27 @@ export const FooterMenu = () => {
           </a>
         </li>
         <li>
-          <a href="" className="font-thin text-xs">
+          <a href="#" className="font-thin text-xs">
             Termene si Conditii
           </a>
         </li>
         <li>
-          <a href="" className="font-thin text-xs">
+          <a href="#" className="font-thin text-xs">
             Politica Confidentialitate
           </a>
         </li>
         <li>
-          <a href="" className="font-thin text-xs">
+          <a href="#" className="font-thin text-xs">
             Politica Coo kies
           </a>
         </li>
         <li>
-          <a href="" className="font-thin text-xs">
+          <a href="#" className="font-thin text-xs">
             GDPR
           </a>
         </li>
         <li>
-          <a href="" className="font-thin text-xs">
+          <a href="#" className="font-thin text-xs">
             ANCP
           </a>
         </li>
