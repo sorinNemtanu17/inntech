@@ -38,7 +38,7 @@ export const HeaderGrid = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua
         </p>
-        <button className="mt-10 uppercase rounded-2xl font-bold px-6 py-3 text-white border-0 text-xs bg-primary sm:py-4 md:px-8 sm:text-sm md:text-base">
+        <button className="mt-10 uppercase rounded-2xl font-bold px-6 py-3 text-white border-0 text-xs bg-primary sm:py-4 md:px-8 sm:text-sm md:text-base drop-shadow-lg">
           fa-ti cont gratuit
         </button>
       </div>

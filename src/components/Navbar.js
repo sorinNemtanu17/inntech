@@ -32,7 +32,7 @@ export const Navbar = () => {
             );
           })}
         </ul>
-        <button className="uppercase rounded-full px-4 py-1 ml-10 border-0 text-sm text-white bg-primary whitespace-nowrap hidden md:block">
+        <button className="uppercase rounded-full px-4 py-1 ml-10 border-0 text-sm text-white bg-primary whitespace-nowrap hidden md:block drop-shadow-lg">
           log in
         </button>
         <IconMenu displayHidden={displayHidden} hidden={hidden} />
