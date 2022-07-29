@@ -6,16 +6,11 @@ import { servicesList } from '../data';
 
 export const Services = () => {
   return (
-    <section className="md:pt-[500px] pt-[600px] relative">
-      <img src={fifth} alt="" className="absolute -z-10 right-0 top-[400px]" />
-      <img
-        src={sixth}
-        alt=""
-        className="absolute w-[400px] -z-10 left-0 top-[400px]"
-      />
-      <img src={seventh} alt="" className="absolute -z-20 left-0 " />
-      <div className="max-w-[550px] text-center uppercase font-semibold mx-auto md:mt-20 mt-20">
-        <h2 className="text-5xl">Lorem, ipsum dolor sit (servicii)</h2>
+    <section className="relative md:mt-32 mt-10">
+      {/* <div className="mx-auto text-center max-w-[550px] uppercase">
+        <h2 className="text-2xl font-semibold md:text-5xl">
+          Lorem, ipsum dolor sit (servicii)
+        </h2>
         <p className="text-xs pt-5">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique
           inventore rem hic assumenda cumque eligendi. Natus modi corrupti
@@ -39,7 +34,13 @@ export const Services = () => {
       </ul>
       <button className="mx-auto block uppercase rounded-full px-16 py-3 text-white border-0 text-xs bg-primary">
         buton
-      </button>
+      </button> */}
+      <div>
+        <img src={fifth} alt="" className="" />
+        <img src={fifth} alt="" className="" />
+        <img src={sixth} alt="" className="" />
+        <img src={seventh} alt="" className="" />
+      </div>
     </section>
   );
 };

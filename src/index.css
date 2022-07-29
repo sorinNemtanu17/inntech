@@ -1,6 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body {
-  overflow-x: hidden;
+
+@layer components {
+  body {
+    @apply overflow-x-hidden;
+  }
+  .navbar {
+    @apply relative mx-auto flex items-center justify-between px-10 py-6;
+  }
+  .menu {
+    @apply hidden md:flex items-center space-x-4 ml-auto;
+  }
+  .menu-mobile {
+    @apply md:hidden absolute flex flex-col items-center py-5 space-y-6 z-10 sm:w-auto inset-x-6 bg-white drop-shadow-md font-bold;
+  }
 }

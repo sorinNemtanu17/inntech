@@ -11,18 +11,43 @@ export const Navbar = () => {
   };
 
   return (
-    <nav className="navbar">
-      <header className="p-4 w-1/3">
-        <img src={brand} alt="" />
-      </header>
+    <>
+      <nav className="navbar">
+        <header className="">
+          <img src={brand} alt="" className="w-3/5" />
+        </header>
 
-      <ul className={`menu ${hidden ? 'scale-y-0' : 'scale-y-1'}`}>
+        <ul className="menu">
+          {navLinks.map((link) => {
+            const { id, text } = link;
+            return (
+              <li key={id} className="">
+                <a
+                  className="block cursor-pointer hover:text-primary md:p-0 text-xs uppercase whitespace-nowrap"
+                  href="#"
+                >
+                  {text}
+                </a>
+              </li>
+            );
+          })}
+        </ul>
+        <button className="uppercase rounded-full px-4 py-1 ml-10 border-0 text-sm text-white bg-primary whitespace-nowrap hidden md:block">
+          log in
+        </button>
+        <IconMenu displayHidden={displayHidden} hidden={hidden} />
+      </nav>
+      <ul
+        className={`menu-mobile ${
+          hidden ? 'h-0 overflow-hidden p-0' : 'h-1/2 overflow-hidden'
+        }`}
+      >
         {navLinks.map((link) => {
           const { id, text } = link;
           return (
             <li key={id} className="">
               <a
-                className="px-4 py-2 block cursor-pointer hover:bg-slate-300"
+                className="block cursor-pointer hover:text-primary uppercase whitespace-nowrap"
                 href="#"
               >
                 {text}
@@ -30,14 +55,7 @@ export const Navbar = () => {
             </li>
           );
         })}
-
-        <li className="py-2 pl-5">
-          <button className="uppercase rounded-full px-4 py-1 border-0 text-sm bg-primary">
-            log in
-          </button>
-        </li>
       </ul>
-      <IconMenu displayHidden={displayHidden} />
-    </nav>
+    </>
   );
 };

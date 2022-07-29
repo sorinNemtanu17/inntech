@@ -1,6 +1,12 @@
+body {
+  @apply overflow-x-hidden min-w-[320px];
+}
 .navbar {
-  @apply flex px-10 items-center uppercase text-xs relative;
+  @apply max-w-2xl mx-auto flex justify-between p-4 items-center uppercase text-xs relative;
+}
+.menu-mobile {
+  @apply absolute z-10 -bottom-full top-full inset-x-10 transition duration-300 origin-top shadow-lg h-52;
 }
 .menu {
-  @apply absolute z-10 -bottom-full top-full right-10 transition duration-300 origin-top shadow-lg h-52;
+  @apply static flex h-full shadow-none items-center gap-2;
 }

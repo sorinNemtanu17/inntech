@@ -1,22 +1,23 @@
 import { Navbar } from './components/Navbar';
-import { Header } from './components/Header';
+import { HeaderGrid } from './components/HeaderGrid';
 import { Services } from './components/Services';
 import { HowTo } from './components/HowTo';
 import { Users } from './components/Users';
 import { Footer } from './components/Footer';
 import React from 'react';
-import './App.css';
+
+import './index.css';
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Header />
-      <Services />
-      <HowTo />
-      <Users />
-      <Footer />
-    </>
+    <div className="transition-all">
+      {/* <Navbar /> */}
+      <HeaderGrid />
+      {/* <Services />  */}
+      {/* <HowTo /> */}
+      {/* <Users /> */}
+      {/* <Footer /> */}
+    </div>
   );
 }
 
