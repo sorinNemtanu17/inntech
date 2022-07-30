@@ -11,10 +11,10 @@ import './index.css';
 function App() {
   return (
     <div className="transition-all">
-      <Navbar />
+      {/* <Navbar />
       <HeaderGrid />
-      <Services />
-      {/* <HowTo /> */}
+      <Services /> */}
+      <HowTo />
       {/* <Users /> */}
       {/* <Footer /> */}
     </div>

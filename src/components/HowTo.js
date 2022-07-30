@@ -1,43 +1,48 @@
 import React from 'react';
 
+import bg from '../images/Path 225.png';
 import eight from '../images/Path 234.svg';
 import nineth from '../images/Path 233.svg';
+import ten from '../images/Path 238.svg';
 
 import { howTo } from '../data';
 
 export const HowTo = () => {
   return (
-    <section className="mt-32 md:mt-52 bg-howToBg bg-cover h-[1235px] relative flex items-center">
-      <div className="pt-32 mx-auto flex flex-wrap flex-col items-center gap-20 sm:gap-5 sm:flex-row justify-center">
-        <img
-          src={eight}
-          alt=""
-          className="absolute sm:z-10 -z-10 left-0 top-10"
-        />
+    <section className="">
+      <div className="grid grid-cols-4">
         <img
           src={nineth}
           alt=""
-          className="absolute -z-10 right-0 -bottom-[100px]"
+          className="row-end-2 col-end-5 place-self-end"
         />
-        <h2 className="self-end text-3xl w-[100%] text-center uppercase sm:text-white font-bold text-black pb-10">
-          cum functioneaza
-        </h2>
-        {howTo.map((item) => {
-          const { id, title, icon, text } = item;
-          return (
-            <article
-              key={id}
-              className="bg-white rounded-3xl flex flex-col sm:w-[200px] p-5 shadow-md"
-            >
-              <img src={icon} alt="" className="w-20 sm:w-16 mx-auto" />
+        <img src={bg} alt="" className="row-span-full col-span-full" />
+        <div className="invisible row-span-full col-span-full bg-howToBg bg-cover bg-no-repeat bg-center md:visible">
+          {/* <img src={ten} alt="" className="" /> */}
+        </div>
+        <img src={eight} alt="" className="row-start-1 col-start-1" />
 
-              <h3 className="text-md uppercase font-medium mx-auto sm:text-sm pt-2 text-primary">
-                {title}
-              </h3>
-              <p className="text-md text-center sm:text-sm pt-2">{text}</p>
-            </article>
-          );
-        })}
+        <div className="row-span-full col-span-full flex flex-wrap items-center justify-center gap-5 max-w-md mx-auto sm:row-span-2 sm:row-end-2 lg:max-w-full">
+          <h2 className="text-lg text-center uppercase text-black font-bold w-full self-end md:text-2xl lg:text-white">
+            cum functioneaza
+          </h2>
+          {howTo.map((item) => {
+            const { id, title, icon, text } = item;
+            return (
+              <article
+                key={id}
+                className="bg-white rounded-3xl flex flex-col p-5 shadow-md w-40 sm:w-44 self-start"
+              >
+                <img src={icon} alt="" className="w-6 mx-auto sm:w-8" />
+
+                <h3 className="text-xs uppercase font-medium mx-auto sm:text-sm text-primary">
+                  {title}
+                </h3>
+                <p className="text-xs text-center sm:text-sm pt-2">{text}</p>
+              </article>
+            );
+          })}
+        </div>
       </div>
     </section>
   );

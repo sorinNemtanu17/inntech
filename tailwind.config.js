@@ -13,7 +13,7 @@ module.exports = {
       backgroundImage: {
         bottomBg: "url('./images/BG(1).svg')",
         footerBg: "url('./images/BG.svg')",
-        howToBg: "url('./images/Path 225.png')",
+        howToBg: "url('./images/Path 238.svg')",
         headerBg: "url('./images/Path 237.svg')",
       },
     },
