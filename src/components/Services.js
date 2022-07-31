@@ -7,7 +7,7 @@ import { servicesList } from '../data';
 export const Services = () => {
   return (
     <section className="grid grid-cols-2 mt-10">
-      <div className="grid grid-cols-8 col-start-1 col-span-2 row-start-1 row-span-4">
+      <div className="grid grid-cols-8 col-start-1 col-span-2 row-start-1 row-span-2">
         <img
           src={second}
           alt=""
@@ -24,7 +24,7 @@ export const Services = () => {
           className="col-start-8 row-start-1 justify-self-end"
         />
       </div>
-      <div className="col-start-1 col-span-2 row-start-1 row-span-1 mt-10 sm:mt-20 md:mt-40">
+      <div className="col-start-1 col-span-2 row-start-1 row-span-2 mt-10 md:mt-0 place-self-center">
         <div className="max-w-md mx-auto px-5">
           <h2 className="font-bold text-sm text-center uppercase mb-2 w-52 mx-auto sm:text-xl md:text-xl">
             Lorem, ipsum dolor sit (servicii)

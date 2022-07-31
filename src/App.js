@@ -11,9 +11,9 @@ import './index.css';
 function App() {
   return (
     <div className="transition-all">
-      {/* <Navbar />
+      <Navbar />
       <HeaderGrid />
-      <Services /> */}
+      <Services />
       <HowTo />
       {/* <Users /> */}
       {/* <Footer /> */}
