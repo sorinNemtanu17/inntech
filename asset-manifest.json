@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/inntech/static/css/main.4dae7379.css",
-    "main.js": "/inntech/static/js/main.a33d88b9.js",
+    "main.css": "/inntech/static/css/main.6130eb1d.css",
+    "main.js": "/inntech/static/js/main.4547337a.js",
     "static/js/787.072eca58.chunk.js": "/inntech/static/js/787.072eca58.chunk.js",
-    "static/media/Path 225.png": "/inntech/static/media/Path 225.d108a7632ab03a484dee.png",
     "static/media/Group 1782 copy.svg": "/inntech/static/media/Group 1782 copy.8c03c1ce31a4399cae55302131235355.svg",
     "static/media/Group 1782.svg": "/inntech/static/media/Group 1782.40e0fb0d432c479836c147e3ebca0fec.svg",
     "static/media/Instagram.svg": "/inntech/static/media/Instagram.c4616d319eb3c9a019eaf17c650390d8.svg",
+    "static/media/Path 238.svg": "/inntech/static/media/Path 238.d98a70cfc371d319704d6086e34ad6a6.svg",
+    "static/media/Path 225.svg": "/inntech/static/media/Path 225.f8485a03f636dc3d86826f974408d267.svg",
     "static/media/linkedin.svg": "/inntech/static/media/linkedin.afe69f9426a219181bb655463a19c90b.svg",
     "static/media/Path 224.svg": "/inntech/static/media/Path 224.8fdc8c36d926af7d8ee05b576930642a.svg",
     "static/media/287927452(7).svg": "/inntech/static/media/287927452(7).ec7cc7612f6ab3a533778d02c786c576.svg",
@@ -14,7 +15,7 @@
     "static/media/287927452(10).svg": "/inntech/static/media/287927452(10).c5bf77db640957107b841364c6205c6a.svg",
     "static/media/Path 233.svg": "/inntech/static/media/Path 233.b1666eb8c9ce277c99223a335c03c44f.svg",
     "static/media/Path 234.svg": "/inntech/static/media/Path 234.29e9fe1db28181ff3babcf82e095ebe1.svg",
-    "static/media/Path 237.svg": "/inntech/static/media/Path 237.565ce0e516589d43e1833820c55202d5.svg",
+    "static/media/Path 237.svg": "/inntech/static/media/Path 237.1056ce6c08ac45d50e353a1effbcd023.svg",
     "static/media/Path 235.svg": "/inntech/static/media/Path 235.28d2d445b18cf0703b418ba397261e87.svg",
     "static/media/hourglass_empty_black_24dp(1).svg": "/inntech/static/media/hourglass_empty_black_24dp(1).084eab6acb9bb2853c3621e94355e927.svg",
     "static/media/hourglass_empty_black_24dp.svg": "/inntech/static/media/hourglass_empty_black_24dp.ab29984a8be3ace05f6e50a051f1f78c.svg",
@@ -23,12 +24,12 @@
     "static/media/Path 236.svg": "/inntech/static/media/Path 236.2e8f246fdd24101c03745369bf8120d3.svg",
     "static/media/BG.svg": "/inntech/static/media/BG.a87749ffb2ce52d1c811.svg",
     "static/media/BG(1).svg": "/inntech/static/media/BG(1).6782b7e71da72d37af1c.svg",
-    "main.4dae7379.css.map": "/inntech/static/css/main.4dae7379.css.map",
-    "main.a33d88b9.js.map": "/inntech/static/js/main.a33d88b9.js.map",
+    "main.6130eb1d.css.map": "/inntech/static/css/main.6130eb1d.css.map",
+    "main.4547337a.js.map": "/inntech/static/js/main.4547337a.js.map",
     "787.072eca58.chunk.js.map": "/inntech/static/js/787.072eca58.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4dae7379.css",
-    "static/js/main.a33d88b9.js"
+    "static/css/main.6130eb1d.css",
+    "static/js/main.4547337a.js"
   ]
 }
