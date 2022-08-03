@@ -15,7 +15,7 @@ function App() {
       <HeaderGrid />
       <Services />
       <HowTo />
-      {/* <Users /> */}
+      <Users />
       {/* <Footer /> */}
     </div>
   );

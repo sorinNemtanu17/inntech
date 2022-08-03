@@ -6,7 +6,7 @@ import { servicesList } from '../data';
 
 export const Services = () => {
   return (
-    <section className="grid grid-cols-2 mt-10">
+    <section className="grid grid-cols-2">
       <div className="grid grid-cols-8 col-start-1 col-span-2 row-start-1 row-span-2">
         <img
           src={second}
